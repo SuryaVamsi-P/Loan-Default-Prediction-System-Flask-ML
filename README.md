@@ -40,6 +40,21 @@ To build a robust machine learning model that predicts whether a customer will d
 - Deployed web app allows real-time loan default prediction with a clean UI
 
 
+## Project Structure
+
+```
+Loan-Defaulters-Prediction/
+├── app.py                    # Main Flask backend for deployment
+├── Loan_final.py            # Model training and evaluation script
+├── Model.pkl                # Serialized trained model
+├── index.html               # Frontend user interface
+├── style.css                # CSS styling for the UI
+├── Requirement Project document.docx  # Project requirements documentation
+├── Data dictionary.docx     # Description of all dataset variables
+└── README.md                # Project documentation
+```
+
+
 ## Deployment
 
 The web application is hosted using Flask with an HTML interface. The model was serialized using `pickle` and loaded into the Flask app for prediction.
